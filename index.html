@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cone Café · Lekki Phase 1</title>
+<meta name="description" content="Coffee, breakfast, brunch and our signature waffle cones. 45B Adebayo Doherty Road, Lekki Phase 1, Lagos. Open daily 8am to 10pm." />
+<link rel="icon" href="assets/logo.jpg" />
+<meta property="og:title" content="Cone Café · Lekki Phase 1" />
+<meta property="og:description" content="Your cone-quest ends here. Coffee, brunch and signature waffle cones in Lekki Phase 1." />
+<meta property="og:image" content="assets/cone-classics.jpg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Karla:ital,wght@0,300..800;1,400..700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ─────────────── NAV ─────────────── -->
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#home" aria-label="Cone Café home">
+    <img src="assets/logo.jpg" alt="Cone Café" width="46" height="46" />
+    <span>Cone Café</span>
+  </a>
+  <nav class="nav__links" aria-label="Main">
+    <a href="#cones">Cone Classics</a>
+    <a href="#menu">Menu</a>
+    <a href="#brunch">Brunch</a>
+    <a href="#space">The Space</a>
+    <a href="#visit">Visit</a>
+  </nav>
+  <a class="btn btn--sm" href="tel:+2349049947966">Call us</a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
+  <div class="drawer" id="drawer">
+    <a href="#cones">Cone Classics</a>
+    <a href="#menu">Menu</a>
+    <a href="#brunch">Brunch</a>
+    <a href="#space">The Space</a>
+    <a href="#visit">Visit</a>
+    <a class="drawer__call" href="tel:+2349049947966">Call 0904 994 7966</a>
+  </div>
+</header>
+
+<!-- ─────────────── HERO ─────────────── -->
+<section class="hero" id="home">
+  <div class="hero__grid">
+    <div class="hero__copy">
+      <p class="kicker fade">Lekki Phase 1 · Since day one</p>
+      <h1 class="fade d1">Your<br /><span class="nb">cone-quest</span><br /><em>ends here.</em></h1>
+      <p class="hero__lede fade d2">Coffee, all-day brunch, and the waffle cone reimagined. Not for ice cream. For chicken, prawns, asun and mac.</p>
+      <div class="hero__cta fade d3">
+        <a class="btn" href="#menu">See the menu</a>
+        <a class="btn btn--ghost" href="#visit">Find us</a>
+      </div>
+      <div class="hero__meta fade d4">
+        <span><strong>8am</strong> to <strong>10pm</strong>, daily</span>
+        <span class="dot" aria-hidden="true"></span>
+        <span>45B Adebayo Doherty Road</span>
+      </div>
+    </div>
+
+    <div class="hero__media veil d2">
+      <span class="cone-shape" aria-hidden="true"></span>
+      <div class="frame frame--tall">
+        <video id="heroVideo" poster="assets/hero-poster.jpg" preload="metadata"
+               muted loop playsinline autoplay disablepictureinpicture>
+          <source src="assets/hero.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <span class="badge-round" aria-hidden="true">
+        <span>Build it · Mix it · Love it ·&nbsp;</span>
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────── TICKER ─────────────── -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__row">
+    <span>Coffee</span><b>✦</b><span>Breakfast</span><b>✦</b><span>Brunch</span><b>✦</b><span>Cones</span><b>✦</b><span>Pasta</span><b>✦</b><span>Drinks</span><b>✦</b>
+    <span>Coffee</span><b>✦</b><span>Breakfast</span><b>✦</b><span>Brunch</span><b>✦</b><span>Cones</span><b>✦</b><span>Pasta</span><b>✦</b><span>Drinks</span><b>✦</b>
+  </div>
+</div>
+
+<!-- ─────────────── CONE CLASSICS ─────────────── -->
+<section class="section cones" id="cones">
+  <div class="wrap">
+    <header class="sec-head">
+      <p class="kicker fade">The signature</p>
+      <h2 class="fade d1">Cone Classics</h2>
+      <span class="rule" aria-hidden="true"></span>
+      <p class="sec-lede fade d2">A crisp waffle cone, loaded with something savoury. It is the thing you cannot get anywhere else in Lekki, and the reason people keep coming back.</p>
+    </header>
+
+    <div class="cones__layout">
+      <figure class="cones__hero veil">
+        <span class="cone-shape cone-shape--sm" aria-hidden="true"></span>
+        <div class="frame">
+          <img src="assets/cone-classics.jpg" alt="Three Cone Café waffle cones loaded with glazed chicken, served in copper stands" width="1024" height="1365" loading="lazy" />
+        </div>
+      </figure>
+
+      <ul class="cone-list">
+        <li class="cone-item fade">
+          <div class="cone-item__head"><h3>Cluck &rsquo;n&rsquo; Roll Cone</h3><span class="price">₦19,500</span></div>
+          <p>Deep fried, battered chicken chunks tossed in a rich choice of sauce, served in a waffle cone.</p>
+        </li>
+        <li class="cone-item fade d1">
+          <div class="cone-item__head"><h3>Prawn Star Cone</h3><span class="price">₦23,500</span></div>
+          <p>Deep fried battered prawns tossed in a rich sauce and served in a waffle cone.</p>
+        </li>
+        <li class="cone-item fade d2">
+          <div class="cone-item__head"><h3>Mac Daddy Cone</h3><span class="price">₦20,500</span></div>
+          <p>Rich, creamy mac and cheese in our signature crisp waffle cone, finished with optional bacon.</p>
+        </li>
+        <li class="cone-item fade d3">
+          <div class="cone-item__head"><h3>Asun Cone</h3><span class="price">₦20,500</span></div>
+          <p>Peppered asun loaded into our signature waffle cone.</p>
+        </li>
+        <li class="cone-note fade d4">All Cone Classics are served with fries. Choose your sauce: cocktail, peppered, sweet &amp; sour, mayo heat, bbq or cheese.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────── PULL QUOTE ─────────────── -->
+<section class="quote">
+  <div class="wrap">
+    <p class="fade">&ldquo;Not for ice cream.<br /><em>For dinner.</em>&rdquo;</p>
+  </div>
+</section>
+
+<!-- ─────────────── MENU ─────────────── -->
+<section class="section menu" id="menu">
+  <div class="wrap">
+    <header class="sec-head sec-head--center">
+      <p class="kicker fade">Served 8am to 10pm</p>
+      <h2 class="fade d1">The Menu</h2>
+      <span class="rule rule--center" aria-hidden="true"></span>
+    </header>
+
+    <div class="tabs" role="tablist" aria-label="Menu categories">
+      <button class="tab is-active" role="tab" aria-selected="true" data-tab="classics">Cone Classics</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="brunchm">Breakfast &amp; Brunch</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="small">Small Plates</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="stacks">Sandwiches &amp; Stacks</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="mains">Mains</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="sweet">Sweet</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="coffee">Coffee &amp; Matcha</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="bar">The Bar</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="kids">Kids</button>
+    </div>
+
+    <div class="panels">
+      <!-- CONE CLASSICS -->
+      <div class="panel is-active" data-panel="classics">
+        <ul class="mlist">
+          <li><span class="m-n">Cluck &rsquo;n&rsquo; Roll Cone</span><span class="m-d">Battered chicken tossed in your choice of sauce</span><span class="m-p">19,500</span></li>
+          <li><span class="m-n">Prawn Star Cone</span><span class="m-d">Battered prawns in a rich sauce</span><span class="m-p">23,500</span></li>
+          <li><span class="m-n">Mac Daddy Cone</span><span class="m-d">Creamy mac and cheese, optional bacon</span><span class="m-p">20,500</span></li>
+          <li><span class="m-n">Asun Cone</span><span class="m-d">Peppered asun in the signature cone</span><span class="m-p">20,500</span></li>
+        </ul>
+      </div>
+
+      <!-- BREAKFAST & BRUNCH -->
+      <div class="panel" data-panel="brunchm">
+        <ul class="mlist">
+          <li><span class="m-n">Cone Café Breakfast</span><span class="m-d">Eggs, hash browns, avocado, sausages, beans, mushrooms, garlic bread, coffee or tea</span><span class="m-p">23,500</span></li>
+          <li><span class="m-n">English Breakfast</span><span class="m-d">Eggs, toast, sausage, beans, mushrooms, grilled tomato, bacon, juice</span><span class="m-p">19,500</span></li>
+          <li><span class="m-n">Mama&rsquo;s Plate</span><span class="m-d">Yam slices, egg sauce, baked beans, grilled sausage, pepper sauce</span><span class="m-p">19,500</span></li>
+          <li><span class="m-n">Brunch Pocket · Ham &amp; Cheddar</span><span class="m-d">Butter croissant, tomato, salad or fries</span><span class="m-p">18,000</span></li>
+          <li><span class="m-n">Brunch Pocket · Egg &amp; Cream Cheese</span><span class="m-d">Butter croissant, salad or fries</span><span class="m-p">16,500</span></li>
+          <li><span class="m-n">Lotus Toast &amp; Tell</span><span class="m-d">Biscoff french toast, eggs, sausage, maple or mascarpone</span><span class="m-p">19,500</span></li>
+          <li><span class="m-n">Pistachio Toast &amp; Tell</span><span class="m-d">Pistachio french toast, eggs, sausage, mascarpone</span><span class="m-p">19,500</span></li>
+          <li><span class="m-n">Plain Toast &amp; Tell</span><span class="m-d">French toast, eggs, sausage, berries, mascarpone or nutella</span><span class="m-p">18,500</span></li>
+        </ul>
+      </div>
+
+      <!-- SMALL PLATES -->
+      <div class="panel" data-panel="small">
+        <ul class="mlist">
+          <li><span class="m-n">Crispy Prawn</span><span class="m-d">Deep fried, with dipping sauce</span><span class="m-p">16,500</span></li>
+          <li><span class="m-n">Crispy Calamari</span><span class="m-d">Deep fried, with dipping sauce</span><span class="m-p">14,500</span></li>
+          <li><span class="m-n">Golden Wings</span><span class="m-d">Crispy fried, your choice of dip</span><span class="m-p">14,500</span></li>
+          <li><span class="m-n">Glazed Wings</span><span class="m-d">Sticky sweet and spicy glaze</span><span class="m-p">14,500</span></li>
+          <li><span class="m-n">Prawn Tacos</span><span class="m-d">Sauteed prawn, cabbage, salsa, flour tortilla</span><span class="m-p">18,500</span></li>
+          <li><span class="m-n">Beef Tacos</span><span class="m-d">Pulled beef, cabbage, salsa, flour tortilla</span><span class="m-p">16,500</span></li>
+          <li><span class="m-n">Chicken Tacos</span><span class="m-d">Chicken chunks, cabbage, salsa, flour tortilla</span><span class="m-p">15,500</span></li>
+        </ul>
+      </div>
+
+      <!-- SANDWICHES & STACKS -->
+      <div class="panel" data-panel="stacks">
+        <ul class="mlist">
+          <li><span class="m-n">Roll Star</span><span class="m-d">Prawns in creamy sauce, bread roll, fries</span><span class="m-p">22,000</span></li>
+          <li><span class="m-n">Quesadillas</span><span class="m-d">Beef or chicken, sweetcorn, peppers, melted cheese</span><span class="m-p">19,500</span></li>
+          <li><span class="m-n">Cluck Melt</span><span class="m-d">Seasoned chicken and melted cheese, fries</span><span class="m-p">18,500</span></li>
+          <li><span class="m-n">Cone-wich</span><span class="m-d">Minced meat, cheese sauce, vegetables, fries or salad</span><span class="m-p">18,500</span></li>
+          <li><span class="m-n">Club Mood</span><span class="m-d">Chicken, lettuce, tomato, egg, bacon, cheese, fries</span><span class="m-p">16,500</span></li>
+          <li><span class="m-n">Loaded Stack</span><span class="m-d">Pancake stack, eggs, sausage, bacon, syrup</span><span class="m-p">18,500</span></li>
+          <li><span class="m-n">Loaded Waffle</span><span class="m-d">Waffles, eggs, sausage, bacon, syrup</span><span class="m-p">18,500</span></li>
+          <li><span class="m-n">Cluck &amp; Stack</span><span class="m-d">Fluffy waffles topped with crispy chicken</span><span class="m-p">17,500</span></li>
+        </ul>
+      </div>
+
+      <!-- MAINS -->
+      <div class="panel" data-panel="mains">
+        <ul class="mlist">
+          <li><span class="m-n">Seafood Scampi Pasta</span><span class="m-d">Garlic butter, mixed seafood, white fish</span><span class="m-p">34,500</span></li>
+          <li><span class="m-n">Alfredo Bliss</span><span class="m-d">Penne or spaghetti, creamy parmesan · chicken 25,500 · prawns 29,500</span><span class="m-p">21,500</span></li>
+          <li><span class="m-n">Pink Pasta</span><span class="m-d">Cream and tomato, herbs · chicken 23,500 · prawns 28,500</span><span class="m-p">21,500</span></li>
+          <li><span class="m-n">Tomato-Tango</span><span class="m-d">Spicy tomato, garlic, chilli, parmesan · chicken 23,500 · prawns 28,500</span><span class="m-p">20,500</span></li>
+          <li><span class="m-n">Aglo-Oglo</span><span class="m-d">Garlic olive oil, chilli flakes, parsley · chicken 21,500 · prawns 25,500</span><span class="m-p">19,000</span></li>
+          <li><span class="m-n">House Rice</span><span class="m-d">Stir fried rice, vegetables, glazed chicken thighs</span><span class="m-p">23,500</span></li>
+          <li><span class="m-n">Tropical Tango</span><span class="m-d">Basmati rice, coconut curry · chicken 23,500 · prawns 28,500</span><span class="m-p">23,500</span></li>
+          <li><span class="m-n">Beef Boss</span><span class="m-d">Beef patty, cheese, signature sauce, fries</span><span class="m-p">19,500</span></li>
+          <li><span class="m-n">Chick Supreme</span><span class="m-d">Chicken patty, cheese, signature sauce, fries</span><span class="m-p">19,500</span></li>
+          <li><span class="m-n">Caesar Salad</span><span class="m-d">Croutons, parmesan · chicken 23,500 · prawns 27,500</span><span class="m-p">21,000</span></li>
+        </ul>
+      </div>
+
+      <!-- SWEET -->
+      <div class="panel" data-panel="sweet">
+        <ul class="mlist">
+          <li><span class="m-n">Chocolate Lava Cake</span><span class="m-d">Molten centre, served with ice cream</span><span class="m-p">15,000</span></li>
+          <li><span class="m-n">Lotus Biscoff Cheesecake</span><span class="m-d">Biscuit base, rich lotus biscoff spread</span><span class="m-p">15,000</span></li>
+          <li><span class="m-n">Cookie Hug Sandwich</span><span class="m-d">Ice cream between two waffle cone cookies</span><span class="m-p">13,500</span></li>
+          <li><span class="m-n">Sundae Funday</span><span class="m-d">Ice cream with toppings and syrup</span><span class="m-p">11,500</span></li>
+          <li><span class="m-n">Nutella Vibes</span><span class="m-d">Warm crepe, creamy nutella, berries</span><span class="m-p">16,500</span></li>
+          <li><span class="m-n">Lotus Vibe</span><span class="m-d">Warm crepe, biscoff spread, berries</span><span class="m-p">16,500</span></li>
+          <li><span class="m-n">Crunch &amp; Roll Bowl</span><span class="m-d">Greek yoghurt, berries, granola, honey</span><span class="m-p">16,500</span></li>
+          <li><span class="m-n">Plain Croissant</span><span class="m-d">From the pastry counter</span><span class="m-p">6,500</span></li>
+        </ul>
+      </div>
+
+      <!-- COFFEE & MATCHA -->
+      <div class="panel" data-panel="coffee">
+        <ul class="mlist mlist--tight">
+          <li><span class="m-n">Cappuccino</span><span class="m-p">6,000</span></li>
+          <li><span class="m-n">Café Latte</span><span class="m-p">6,000</span></li>
+          <li><span class="m-n">Flat White</span><span class="m-p">6,500</span></li>
+          <li><span class="m-n">Café Mocha</span><span class="m-p">6,500</span></li>
+          <li><span class="m-n">Caramel Macchiato</span><span class="m-p">7,500</span></li>
+          <li><span class="m-n">Americano</span><span class="m-p">5,800</span></li>
+          <li><span class="m-n">Espresso · single</span><span class="m-p">4,200</span></li>
+          <li><span class="m-n">Irish Coffee</span><span class="m-p">15,000</span></li>
+          <li><span class="m-n">Hot Chocolate</span><span class="m-p">7,000</span></li>
+          <li><span class="m-n">Classic Matcha Latte</span><span class="m-p">9,500</span></li>
+          <li><span class="m-n">Vanilla Matcha Latte</span><span class="m-p">11,500</span></li>
+          <li><span class="m-n">Strawberry Matcha Latte</span><span class="m-p">11,500</span></li>
+          <li><span class="m-n">Coconut Matcha Latte</span><span class="m-p">11,500</span></li>
+          <li><span class="m-n">Mango Matcha Latte</span><span class="m-p">11,500</span></li>
+          <li><span class="m-n">Iced Latte</span><span class="m-p">6,500</span></li>
+          <li><span class="m-n">Caramel Frappucino</span><span class="m-p">9,500</span></li>
+        </ul>
+      </div>
+
+      <!-- BAR -->
+      <div class="panel" data-panel="bar">
+        <ul class="mlist mlist--tight">
+          <li><span class="m-n">Cone Special</span><span class="m-p">13,500</span></li>
+          <li><span class="m-n">Aperol Spritz</span><span class="m-p">15,000</span></li>
+          <li><span class="m-n">Long Island</span><span class="m-p">15,000</span></li>
+          <li><span class="m-n">Dirty Martini</span><span class="m-p">16,000</span></li>
+          <li><span class="m-n">Strawberry Daiquiri</span><span class="m-p">14,500</span></li>
+          <li><span class="m-n">Piña Colada</span><span class="m-p">14,500</span></li>
+          <li><span class="m-n">Negroni</span><span class="m-p">13,500</span></li>
+          <li><span class="m-n">Mojito</span><span class="m-p">13,500</span></li>
+          <li><span class="m-n">Whiskey Sour</span><span class="m-p">13,500</span></li>
+          <li><span class="m-n">Gin Man</span><span class="m-p">13,500</span></li>
+          <li><span class="m-n">Passion Margarita</span><span class="m-p">13,500</span></li>
+          <li><span class="m-n">Chapman</span><span class="m-p">10,500</span></li>
+          <li><span class="m-n">Cone Delight</span><span class="m-p">11,500</span></li>
+          <li><span class="m-n">Virgin Piña Colada</span><span class="m-p">12,500</span></li>
+          <li><span class="m-n">Berry Burst Smoothie</span><span class="m-p">12,500</span></li>
+          <li><span class="m-n">Lemonade</span><span class="m-p">9,500</span></li>
+        </ul>
+      </div>
+
+      <!-- KIDS -->
+      <div class="panel" data-panel="kids">
+        <ul class="mlist">
+          <li><span class="m-n">Star Slider</span><span class="m-d">Mini beef burger, cheese, signature sauce, fries</span><span class="m-p">15,000</span></li>
+          <li><span class="m-n">Fish Dippers</span><span class="m-d">Crispy fish fingers, fries, tartare</span><span class="m-p">15,000</span></li>
+          <li><span class="m-n">Cluck Bites</span><span class="m-d">Golden chicken nuggets, fries, dip</span><span class="m-p">13,500</span></li>
+          <li><span class="m-n">Mini Pancakes</span><span class="m-d">Pancake stack, eggs, sausage, syrup</span><span class="m-p">13,500</span></li>
+          <li><span class="m-n">Pup Roll</span><span class="m-d">Hot dog in a soft bun, your sauce, fries</span><span class="m-p">11,500</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="menu-note fade">All prices in naira and exclude VAT and Lagos consumption tax. Kindly inform our waitstaff of any allergies, as not all ingredients may be listed.</p>
+    <div class="menu-cta fade">
+      <a class="btn" href="tel:+2349049947966">Reserve a table</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────── BRUNCH ─────────────── -->
+<section class="section brunch" id="brunch">
+  <div class="wrap brunch__grid">
+    <div class="brunch__copy">
+      <p class="kicker fade">Served all day</p>
+      <h2 class="fade d1">Brunch has<br /><em>no closing time.</em></h2>
+      <span class="rule fade d1" aria-hidden="true"></span>
+      <p class="fade d2">Woke up at noon? Still breakfast. The full plate, the french toast, the pancake stacks, the yam and egg sauce. Every one of them runs from open to close.</p>
+      <ul class="tick fade d3">
+        <li>Cone Café Breakfast, the full works</li>
+        <li>Toast &amp; Tell in lotus, pistachio or plain</li>
+        <li>Mama&rsquo;s Plate, yam with egg sauce</li>
+        <li>Power bowls and fresh pressed juice</li>
+      </ul>
+      <a class="btn btn--ghost fade d4" href="#menu">Browse brunch</a>
+    </div>
+    <div class="brunch__media">
+      <figure class="veil">
+        <div class="frame"><img src="assets/rice-stew.jpg" alt="Chicken stew with basmati rice in a white bowl" width="975" height="1300" loading="lazy" /></div>
+      </figure>
+      <figure class="veil d2 brunch__offset">
+        <div class="frame"><img src="assets/skewers.jpg" alt="Glazed chicken skewers with fried rice and fresh salad" width="975" height="1300" loading="lazy" /></div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────── THE SPACE ─────────────── -->
+<section class="section space" id="space">
+  <div class="wrap">
+    <header class="sec-head sec-head--center">
+      <p class="kicker fade">45B Adebayo Doherty Road</p>
+      <h2 class="fade d1">The Space</h2>
+      <span class="rule rule--center" aria-hidden="true"></span>
+      <p class="sec-lede sec-lede--center fade d2">Yellow walls, good light and a counter that smells like coffee from eight in the morning. Come for one cone, stay for three hours.</p>
+    </header>
+    <div class="space__grid">
+      <figure class="veil space__video">
+        <div class="frame frame--tall">
+          <video poster="assets/interior-poster.jpg" preload="none" data-src="assets/interior.mp4"
+                 muted loop playsinline disablepictureinpicture></video>
+        </div>
+      </figure>
+      <figure class="veil d1"><div class="frame"><img src="assets/cappuccino.jpg" alt="Cappuccino with heart latte art served on a Cone Café branded table" width="975" height="1300" loading="lazy" /></div></figure>
+      <figure class="veil d2"><div class="frame"><img src="assets/hotdog.jpg" alt="Pup Roll hot dog served with golden fries" width="975" height="1300" loading="lazy" /></div></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────── THE BAR ─────────────── -->
+<section class="section bar" id="bar">
+  <div class="wrap bar__grid">
+    <div class="bar__media">
+      <figure class="veil"><div class="frame"><img src="assets/chapman.jpg" alt="Chapman served over ice with lime, in front of a Cone Café apron" width="975" height="1300" loading="lazy" /></div></figure>
+      <figure class="veil d2 bar__offset"><div class="frame"><img src="assets/daiquiri.jpg" alt="Frozen strawberry daiquiri in a coupe glass at the bar" width="975" height="1300" loading="lazy" /></div></figure>
+    </div>
+    <div class="bar__copy">
+      <p class="kicker fade">From the counter</p>
+      <h2 class="fade d1">Coffee by day.<br /><em>Cocktails by night.</em></h2>
+      <span class="rule fade d1" aria-hidden="true"></span>
+      <p class="fade d2">Six kinds of matcha, a proper espresso bar, and when the sun drops, a full cocktail list. Chapman for the table, Aperol for the terrace, and a Cone Special you will only find here.</p>
+      <div class="bar__stats fade d3">
+        <div><strong>6</strong><span>matcha lattes</span></div>
+        <div><strong>13</strong><span>cocktails</span></div>
+        <div><strong>8am</strong><span>first pour</span></div>
+      </div>
+      <a class="btn fade d4" href="#menu">See the bar list</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────── VISIT ─────────────── -->
+<section class="section visit" id="visit">
+  <div class="wrap">
+    <header class="sec-head sec-head--center">
+      <p class="kicker fade">Come find us</p>
+      <h2 class="fade d1">Visit Cone Café</h2>
+      <span class="rule rule--center" aria-hidden="true"></span>
+    </header>
+    <div class="visit__grid">
+      <div class="vcard fade">
+        <h3>Address</h3>
+        <p>45B Adebayo Doherty Road<br />Lekki Phase 1, Lagos</p>
+        <a class="link" href="https://maps.google.com/?q=45B+Adebayo+Doherty+Road+Lekki+Phase+1+Lagos" target="_blank" rel="noopener">Open in Maps</a>
+      </div>
+      <div class="vcard fade d1">
+        <h3>Hours</h3>
+        <p>Monday to Sunday<br /><strong>8:00am &ndash; 10:00pm</strong></p>
+        <span class="open-pill" id="openPill">Checking hours</span>
+      </div>
+      <div class="vcard fade d2">
+        <h3>Reservations</h3>
+        <p>Call ahead for tables,<br />events and large groups.</p>
+        <a class="link" href="tel:+2349049947966">0904 994 7966</a>
+      </div>
+      <div class="vcard fade d3">
+        <h3>Follow</h3>
+        <p>Daily specials and<br />Cone Thursdays.</p>
+        <a class="link" href="https://instagram.com/conecafeng" target="_blank" rel="noopener">@conecafeng</a>
+      </div>
+    </div>
+    <div class="visit__cta fade">
+      <a class="btn btn--lg" href="tel:+2349049947966">Call 0904 994 7966</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────── FOOTER ─────────────── -->
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div class="footer__brand">
+      <img src="assets/logo.jpg" alt="Cone Café" width="64" height="64" />
+      <p>Your cone-quest ends here.</p>
+    </div>
+    <nav class="footer__nav" aria-label="Footer">
+      <a href="#cones">Cone Classics</a>
+      <a href="#menu">Menu</a>
+      <a href="#brunch">Brunch</a>
+      <a href="#space">The Space</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <div class="footer__contact">
+      <p>45B Adebayo Doherty Road<br />Lekki Phase 1, Lagos</p>
+      <a href="tel:+2349049947966">0904 994 7966</a>
+      <a href="https://instagram.com/conecafeng" target="_blank" rel="noopener">@conecafeng</a>
+    </div>
+  </div>
+  <div class="footer__base">
+    <span>&copy; <span id="year">2026</span> Cone Café</span>
+    <span>Open daily, 8am to 10pm</span>
+  </div>
+  <div class="footer__mark" aria-hidden="true">Cone</div>
+</footer>
+
+<a class="fab" href="tel:+2349049947966" aria-label="Call Cone Café">
+  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
